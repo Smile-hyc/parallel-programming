@@ -1,0 +1,16 @@
+-r
+C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--stack-unwind-limit=8388608
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:stack
+--interval=10
+--app-working-dir=D:\Grade2_2\并行程序设计\lab1
+--
+D:\Grade2_2\并行程序设计\lab1\matrix_ordinary.exe

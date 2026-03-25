@@ -1,0 +1,106 @@
+35 [28196] INFO perfrun.launcher <> - Launcher main begin
+40 [28196] INFO perfrun.launcher <> - MessageCatalogInit finished
+40 [28196] INFO perfrun.launcher <> - Launcher instance created
+40 [28196] INFO perfrun.launcher <> - argc = 7; cmdline = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1200 --option-file C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\config\runss.options 
+59 [28196] INFO perfrun.launcher <> - New signal handler callback was added
+150 [28196] INFO perfrun.perfcollector <> - SEP tool path: E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\sep.exe
+158 [28196] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+158 [28196] INFO perfrun.launcher <> - create file finder object
+159 [28196] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs pid = 4294967295
+163 [28196] INFO perfrun.launcher <> - create data directory = C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0
+165 [28196] INFO perfrun.launcher <> - Creating the master collection flag
+178 [28196] INFO perfrun.launcher <> - Done creating the master collection flag
+178 [38252] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+178 [38252] INFO perfrun.sdk <> - Allocating TMU :C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0\systemcollector-2824-smile.sc
+179 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+180 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+180 [38252] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+180 [38252] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+180 [38252] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+180 [38252] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+180 [38252] INFO perfrun.mrte <> - system-wide mode is 0
+180 [38252] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+192 [38252] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0
+192 [38252] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=smile
+193 [38252] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+193 [38252] INFO perfrun.mrte <> - PATH=E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\runtime;E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\runtime;E:\TDM-GCC-64\bin;E:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\LLM\CUDA\bin;D:\LLM\CUDA\libnvvp;E:\LLM\CUDA\bin;E:\LLM\CUDA\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\smile\Downloads\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\mingw64\bin;C:\Program Files\MATLAB\R2025a\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\nodejs\;C:\Users\smile\anaconda3;C:\Users\smile\anaconda3\Scripts;C:\Users\smile\anaconda3\Library\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.2.0\;C:\Program Files\Git\cmd;E:\Program Files (x86)\NetSarang\Xshell 8\;E:\TDM-GCC-64\bin;c:\Users\smile\AppData\Local\Programs\Trae CN\bin;C:\Users\smile\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\smile\AppData\Local\Programs\Python\Python39\;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;C:\Users\smile\anaconda3;C:\Users\smile\anaconda3\Scripts;C:\Users\smile\anaconda3\Library\bin;C:\Program Files\nodejs\node_module;C:\Users\smile\AppData\Local\Programs\cursor\resources\app\bin;
+193 [38252] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+193 [38252] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+193 [38252] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+193 [38252] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+193 [38252] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+193 [38252] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+193 [38252] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+193 [38252] INFO perfrun.mrte <> - Data directory: C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0
+193 [38252] INFO perfrun.mrte <> - Mrte plugin is initialized
+193 [38252] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.tpss <> - initialize tpss controller
+193 [38252] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+193 [38252] INFO perfrun.tpss <> - default obj-size-min=1024
+193 [38252] INFO perfrun.tpss <> - default hash-table-size=0
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+193 [38252] INFO perfrun.launcher <> - plugin [stall_reasons] was disabled because it doesn't support the given collection type.
+193 [28196] INFO perfrun.launcher <> - set environment variable: PATH = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\runtime;E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\runtime;E:\TDM-GCC-64\bin;E:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\LLM\CUDA\bin;D:\LLM\CUDA\libnvvp;E:\LLM\CUDA\bin;E:\LLM\CUDA\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\smile\Downloads\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\mingw64\bin;C:\Program Files\MATLAB\R2025a\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\nodejs\;C:\Users\smile\anaconda3;C:\Users\smile\anaconda3\Scripts;C:\Users\smile\anaconda3\Library\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.2.0\;C:\Program Files\Git\cmd;E:\Program Files (x86)\NetSarang\Xshell 8\;E:\TDM-GCC-64\bin;c:\Users\smile\AppData\Local\Programs\Trae CN\bin;C:\Users\smile\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\smile\AppData\Local\Programs\Python\Python39\;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;C:\Users\smile\anaconda3;C:\Users\smile\anaconda3\Scripts;C:\Users\smile\anaconda3\Library\bin;C:\Program Files\nodejs\node_module;C:\Users\smile\AppData\Local\Programs\cursor\resources\app\bin;
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\runtime\ittnotify_collector.dll
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\runtime\ittnotify_collector.dll
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\runtime\ittnotify_collector.dll
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\runtime\ittnotify_collector.dll
+194 [28196] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+194 [28196] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+194 [28196] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+194 [28196] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+194 [28196] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0
+194 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = smile
+194 [28196] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+194 [28196] INFO perfrun.launcher <> - set environment variable: PATH = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\runtime;E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\runtime;E:\TDM-GCC-64\bin;E:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\LLM\CUDA\bin;D:\LLM\CUDA\libnvvp;E:\LLM\CUDA\bin;E:\LLM\CUDA\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\smile\Downloads\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\mingw64\bin;C:\Program Files\MATLAB\R2025a\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\nodejs\;C:\Users\smile\anaconda3;C:\Users\smile\anaconda3\Scripts;C:\Users\smile\anaconda3\Library\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.2.0\;C:\Program Files\Git\cmd;E:\Program Files (x86)\NetSarang\Xshell 8\;E:\TDM-GCC-64\bin;c:\Users\smile\AppData\Local\Programs\Trae CN\bin;C:\Users\smile\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\smile\AppData\Local\Programs\Python\Python39\;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;C:\Users\smile\anaconda3;C:\Users\smile\anaconda3\Scripts;C:\Users\smile\anaconda3\Library\bin;C:\Program Files\nodejs\node_module;C:\Users\smile\AppData\Local\Programs\cursor\resources\app\bin;
+194 [28196] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+194 [28196] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+194 [28196] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+194 [28196] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+195 [28196] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+195 [28196] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+195 [28196] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+195 [28196] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+217 [28196] INFO perfrun.sdk <> - IProcessUtil: the given executable 'D:\Grade2_2\并行程序设计\lab1\matrix_ordinary.exe' is valid.
+218 [28196] INFO perfrun.launcher <> - Launcher: command line to start before modification = D:\Grade2_2\并行程序设计\lab1\matrix_ordinary.exe
+219 [28196] INFO perfrun.launcher <> - Launcher: command line to start after modification = E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\pin.exe -error_file C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\pin.exe -p64 E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\pin.exe -t64 E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin64\tpsstool.dll -t E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10\bin32\tpsstool.dll -server_name tpss_ipc.2824 -prd_dir E:\Program Files (x86)\Intel\oneAPI\vtune\2025.10 -- D:\Grade2_2\并行程序设计\lab1\matrix_ordinary.exe
+219 [28196] INFO perfrun.launcher <> - ProcessCreator object was created
+236 [28196] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+237 [38252] INFO perfrun.itt <> - start itt controller for pid #3080
+238 [38252] INFO perfrun.tpss <> - start tpss controller for pid #3080
+291 [28196] INFO perfrun.launcher <> - Launcher: all plugins were started
+291 [28196] INFO perfrun.launcher <> - DirectoryMonitor object was created
+291 [28196] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+291 [28196] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+291 [28196] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+292 [28196] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+306 [28196] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+11814 [28196] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+11819 [38252] INFO perfrun.itt <> - detach itt controller
+11819 [38252] INFO perfrun.itt <> - detach itt controller done
+11819 [38252] INFO perfrun.tpss <> - stop tpss controller
+11821 [38252] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0\systemcollector-2824-smile.sc
+11834 [38252] INFO perfrun.system <> - closed the system trace file: C:\Users\smile\Documents\VTune\Projects\matrix_ordinary\r000hs\data.0\systemcollector-2824-smile.sc
+11835 [28196] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+11835 [28196] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+11835 [28196] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+11835 [28196] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+11835 [28196] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+11838 [28196] INFO perfrun.launcher <> - Application exit code: 0
+11838 [28196] INFO perfrun.launcher <> - Exit code: 0
